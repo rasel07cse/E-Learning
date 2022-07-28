@@ -317,7 +317,7 @@
         <!-- Explore the E-Learning Institute End -->
 
         <!-- Ready To Join Section Start -->
-        <section class="container bg-primary mt-5 py-5">
+        <section class="container bg-primary rounded mt-5 py-5">
             <div class="d-flex">
                 <div class="text-white w-50 m-5">
                     <h1 class="lgtx fw-bold">Ready to join?</h1>
@@ -325,7 +325,68 @@
                         readable content of a page when looking at its layout.</h6>
                 </div>
                 <div class="w-50 d-flex justify-content-center align-items-center">
-                    <a href=""><button type="button" class="btn btn-outline-light btn-lg">Register Now</button></a>
+                    <div>
+                        <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#myModal">Register
+                            Now</button>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Regirstration Here:</h4>
+                                    </div>
+                                    <div class="modal-content">
+                                        <form class="row g-3 p-3">
+                                            <div class="col-md-6">
+                                                <label for="inputEmail4" class="form-label">Email</label>
+                                                <input type="email" class="form-control" id="inputEmail4">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="inputAddress" class="form-label">Address</label>
+                                                <input type="text" class="form-control" id="inputAddress"
+                                                    placeholder="1234 Main St">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="inputAddress2" class="form-label">Address 2</label>
+                                                <input type="text" class="form-control" id="inputAddress2"
+                                                    placeholder="Apartment, studio, or floor">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputCity" class="form-label">City</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="inputState" class="form-label">State</label>
+                                                <select id="inputState" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <label for="inputZip" class="form-label">Zip</label>
+                                                <input type="text" class="form-control" id="inputZip">
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Check me out
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Regirstration</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
